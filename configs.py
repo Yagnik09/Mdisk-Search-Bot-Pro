@@ -20,9 +20,9 @@ class Config(object):
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG")
     
-I Aᴍ ᴀ Sɪᴍᴘʟᴇ Mᴏᴠᴇ Sᴇᴀʀᴄʜɪɴɢ Rᴏʙᴏᴛ 🤖
+I Aᴍ ᴀ Sɪᴍᴘʟᴇ Mᴏᴠᴇ Sᴇᴀʀᴄʜɪɴɢ Rᴏʙᴏᴛ
 
-Jᴜsᴛ Sᴇɴᴅ Mᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ Lɪɴᴋs ❤
+Jᴜsᴛ Sᴇɴᴅ Mᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ Lɪɴᴋs
 
 Aɴʏ Qᴜᴇʀʏ - @Problem_1199
 
