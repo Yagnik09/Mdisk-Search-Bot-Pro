@@ -27,10 +27,8 @@ Jᴜsᴛ Sᴇɴᴅ Mᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ I Wɪʟʟ Gɪ�
 Aɴʏ Qᴜᴇʀʏ - @Problem_1199
 
 Iғ Yᴏᴜ Dᴏɴ'ᴛ Kɴᴏᴡ Hᴏᴡ Tᴏ Usᴇ Mᴇ Tʜᴇɴ Wᴀᴛᴄʜ Tʜɪs Vɪᴅᴇᴏ
-
-@how_to_download_movie_ka_video  
-
-    START_PHOTO = os.getenv("START_PHOTO")
+@how_to_download_movie_ka_video
+    START_PHOTO = os.getenv("STARTy_PHOTO")
     HOME_TEXT = os.getenv("HOME_TEXT")
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
     DATABASE_URL = os.getenv("DATABASE_URL", "")
@@ -44,3 +42,13 @@ Iғ Yᴏᴜ Dᴏɴ'ᴛ Kɴᴏᴡ Hᴏᴡ Tᴏ Usᴇ Mᴇ Tʜᴇɴ Wᴀᴛᴄʜ T
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT")
     ABOUT_HELP_TEXT = os.getenv("HELP_TEXT")
+
+
+
+
+
+
+
+
+
+
