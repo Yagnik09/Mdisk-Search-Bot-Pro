@@ -19,6 +19,17 @@ class Config(object):
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG")
+    
+I Aᴍ ᴀ Sɪᴍᴘʟᴇ Mᴏᴠᴇ Sᴇᴀʀᴄʜɪɴɢ Rᴏʙᴏᴛ 🤖
+
+Jᴜsᴛ Sᴇɴᴅ Mᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ Lɪɴᴋs ❤
+
+Aɴʏ Qᴜᴇʀʏ - @Problem_1199
+
+Iғ Yᴏᴜ Dᴏɴ'ᴛ Kɴᴏᴡ Hᴏᴡ Tᴏ Usᴇ Mᴇ Tʜᴇɴ Wᴀᴛᴄʜ Tʜɪs Vɪᴅᴇᴏ
+
+@how_to_download_movie_ka_video  
+
     START_PHOTO = os.getenv("START_PHOTO")
     HOME_TEXT = os.getenv("HOME_TEXT")
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
