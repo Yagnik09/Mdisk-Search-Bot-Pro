@@ -85,9 +85,7 @@ async def message_handler(event):
                 search.append(search_msg)
 
         username = Config.UPDATES_CHANNEL_USERNAME
-        answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
-        answer = f'**HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE** \n\n
-        answer = f'**@how_to_download_movie_ka_video** \n\n
+        answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n ⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE \n\n @how_to_download_movie_ka_video \n\n'
         
         c = 0
 
