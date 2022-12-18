@@ -98,8 +98,8 @@ async def message_handler(event):
                 f_text = re.sub("__|\*", "", msg.text)
 
                 f_text = await link_to_hyperlink(f_text)
-                answer += f'\n\n\n✅ PAGE {c}:\n\n▰▱▰▱▰▱\n\n🍿' + '' + f_text.split("\n", 1)[0] + '' + '\n\n🔊' + '' + f_text.split("\n", 2)[
-                    -1] +'\n\n━━━━━━━━━━━━━━ "\n\n"
+                answer += f'**\n✅ PAGE {c}:\n\n▰▱▰▱▰▱\n\n🍿 ' + '' + f_text.split("\n", 1)[0] + '' + '\n\n🔊 ' + '' + f_text.split("\n", 2)[
+                    -1] +'\n━━━━━━━━━━━━━━\n\n**'
                 
             # break
         finalsearch = []
