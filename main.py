@@ -86,8 +86,6 @@ async def message_handler(event):
 
         username = Config.UPDATES_CHANNEL_USERNAME
         answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
-        answer = f'''**HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE**
-**@how_to_download_movie_ka_video**'''
         
         c = 0
 
