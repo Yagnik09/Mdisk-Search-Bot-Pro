@@ -96,7 +96,7 @@ async def message_handler(event):
 
                 f_text = await link_to_hyperlink(f_text)
                 answer += f'\n\n\n✅ PAGE {c}:\n\n━━━━━━━━━\n\n' + '' + f_text.split("\n", 1)[0] + '' + '\n\n' + '' + f_text.split("\n", 2)[
-                    -1] + "\n\n"
+                    -1] + "\n\n"'HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE \n\n @how_to_download_movie_ka_video \n\n'
                 
             # break
         finalsearch = []
