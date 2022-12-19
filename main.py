@@ -84,7 +84,8 @@ async def message_handler(event):
                 search_msg = client.iter_messages(CHANNEL_ID, limit=5, search=i)
                 search.append(search_msg)
                 
-        answer = f'Join @ATM_Film_HD\n\n⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE @how_to_download_movie_ka_video\n\n'
+        username = Config.UPDATES_CHANNEL_USERNAME
+        answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
         
         c = 0
 
@@ -95,7 +96,7 @@ async def message_handler(event):
 
                 f_text = await link_to_hyperlink(f_text)
                 answer += f'✅ PAGE {c}:\n\n▰▱▰▱▰▱\n\n🍿 ' + '' + f_text.split("\n", 1)[0] + '' + '\n\n🔊 ' + '' + f_text.split("\n", 2)[
-                    -1] + ' \n\n━━━━━━━━━━━━━━\n\n'
+                    -1] + ' \n\n━━━━━━━━━━━━━━\n⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE\n@how_to_download_movie_ka_video\n\n'
                 
             # break
         finalsearch = []
