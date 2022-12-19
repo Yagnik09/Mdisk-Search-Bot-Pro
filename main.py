@@ -87,9 +87,6 @@ async def message_handler(event):
         username = Config.UPDATES_CHANNEL_USERNAME
         answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
         
-        backup = Config.BACKUP_CHANNEL
-        answer += f'**⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE** [@{how_to_download_movie_ka_video}](https://telegram.me/{how_to_download_movie_ka_video}) \n\n'
-        
         c = 0
 
         async for msg_list in AsyncIter(search):
@@ -115,8 +112,8 @@ async def message_handler(event):
 
             newbutton = [Button.url('Click To Check Spelling ✅',
                                     f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie')], [
-                            Button.url('Click To Check Release Date 📅',
-                                    f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie%20Release%20Date')]
+                            Button.url('How To Watch',
+                                    f'https://telegram.me/how_to_download_movie_ka_video')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
