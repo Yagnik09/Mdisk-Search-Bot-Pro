@@ -87,6 +87,9 @@ async def message_handler(event):
         username = Config.UPDATES_CHANNEL_USERNAME
         answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
         
+        backup = Config.BACKUP_CHANNEL
+        answer += f'**⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE** [@{backup}](https://telegram.me/{backup}) \n\n'
+        
         c = 0
 
         async for msg_list in AsyncIter(search):
@@ -96,7 +99,7 @@ async def message_handler(event):
 
                 f_text = await link_to_hyperlink(f_text)
                 answer += f'✅ PAGE {c}:\n\n▰▱▰▱▰▱\n\n🍿 ' + '' + f_text.split("\n", 1)[0] + '' + '\n\n🔊 ' + '' + f_text.split("\n", 2)[
-                    -1] + ' \n\n━━━━━━━━━━━━━━\n⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE\n@how_to_download_movie_ka_video\n\n'
+                    -1] + ' \n\n━━━━━━━━━━━━━━n\n'
                 
             # break
         finalsearch = []
