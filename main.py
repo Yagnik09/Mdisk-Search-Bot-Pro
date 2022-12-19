@@ -112,7 +112,7 @@ async def message_handler(event):
 
             newbutton = [Button.url('Click To Check Spelling ✅',
                                     f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie')], [
-                            Button.url('How To Watch',
+                            Button.url('⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE',
                                     f'https://telegram.me/how_to_download_movie_ka_video')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
