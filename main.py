@@ -88,7 +88,7 @@ async def message_handler(event):
         answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
         
         backup = Config.BACKUP_CHANNEL
-        answer += f'**⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE** [@{backup}](https://telegram.me/{backup}) \n\n'
+        answer += f'**⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE** [@{how_to_download_movie_ka_video}](https://telegram.me/{how_to_download_movie_ka_video}) \n\n'
         
         c = 0
 
