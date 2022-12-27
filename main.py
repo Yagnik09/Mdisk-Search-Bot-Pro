@@ -137,7 +137,7 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
         
-        newbutton = [Button.url('How To Watch ❓',
+        newbutton = [Button.url('How To Watch & Download ❓',
                                     f'https://telegram.me/how_to_download_movie_ka_video')]
         
         await txt.delete()
