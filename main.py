@@ -107,6 +107,9 @@ async def message_handler(event):
             answer = f'''**No Results Found For {event.text}**
 
 **Type Only Movie Name 💬**
+**Pushpa ✅**
+**Pushpa 2021 ✅**
+**Pushpa in Hindi ❌**
 **Check Spelling On** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
     '''
 
