@@ -15,7 +15,7 @@ async def help_handler(_, event: Message):
             
             [
 
-            InlineKeyboardButton('⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE', url=f'http://t.me/how_to_download_movie_ka_video?startgroup=true')
 
             ],
 
