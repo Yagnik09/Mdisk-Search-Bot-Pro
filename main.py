@@ -115,8 +115,8 @@ async def message_handler(event):
 
             newbutton = [Button.url('Click To Check Spelling ✅',
                                     f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie')], [
-                            Button.url('⬇️ HOW TO 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 MOVIE',
-                                    f'https://telegram.me/how_to_download_movie_ka_video')]
+                            Button.url('❓ HOW TO WATCH & DOWNLOAD MOVIE ❓',
+                                    f'https://telegram.me/how_to_download_movie_ka_video/484')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -138,7 +138,7 @@ async def message_handler(event):
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
         
         newbutton = [Button.url('❓ How To Watch & Download ❓',
-                                    f'https://telegram.me/how_to_download_movie_ka_video')]
+                                    f'https://telegram.me/how_to_download_movie_ka_video/484')]
         
         await txt.delete()
         await asyncio.sleep(0.5)
